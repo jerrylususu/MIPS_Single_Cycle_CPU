@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../final_lab.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../final_lab.srcs/sources_1/ip/RAM/sim/RAM.v" \
+"../../../../final_lab.srcs/sources_1/ip/prgrom/sim/prgrom.v" \
+"../../../../final_lab.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v" \
+"../../../../final_lab.srcs/sources_1/ip/cpuclk/cpuclk.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab12/lab12.srcs/sources_1/new/Ifetc32.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/control32.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/dmemory32.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab11/lab11.srcs/sources_1/new/executs32.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/ioread.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/leds.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/memorio.v" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/switchs.v" \
+
+sv xil_defaultlib  --include "../../../../final_lab.srcs/sources_1/ip/cpuclk" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../final_lab.srcs/sources_1/imports/vivado/lab10/lab10.srcs/sources_1/imports/lab10/idecode32-1.v" \
+"../../../../final_lab.srcs/sources_1/new/cpu_debug.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

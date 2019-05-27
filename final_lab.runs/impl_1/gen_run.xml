@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1558707114">
+  <File Type="PA-TCL" Name="clockregtest2.tcl"/>
+  <File Type="PWROPT-DCP" Name="clockregtest2_pwropt.dcp"/>
+  <File Type="REPORTS-TCL" Name="clockregtest2_reports.tcl"/>
+  <File Type="BG-DRC" Name="clockregtest2.drc"/>
+  <File Type="OPT-HWDEF" Name="clockregtest2.hwdef"/>
+  <File Type="OPT-DCP" Name="clockregtest2_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="clockregtest2_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="clockregtest2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="clockregtest2_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="clockregtest2_physopt.dcp"/>
+  <File Type="BG-BIT" Name="clockregtest2.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="clockregtest2_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="clockregtest2_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="clockregtest2_routed_bb.dcp"/>
+  <File Type="BITSTR-MSK" Name="clockregtest2.msk"/>
+  <File Type="BG-BGN" Name="clockregtest2.bgn"/>
+  <File Type="BITSTR-RBT" Name="clockregtest2.rbt"/>
+  <File Type="BG-BIN" Name="clockregtest2.bin"/>
+  <File Type="ROUTE-TIMING-PB" Name="clockregtest2_timing_summary_routed.pb"/>
+  <File Type="RDI-RDI" Name="clockregtest2.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="clockregtest2_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="clockregtest2_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="clockregtest2.nky"/>
+  <File Type="BITSTR-BMM" Name="clockregtest2_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="clockregtest2.mmi"/>
+  <File Type="BITSTR-LTX" Name="clockregtest2.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="clockregtest2.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/prgrom/prgrom.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/ip/prgrom/prgrom.xci"/>
+        <Attr Name="ImportTime" Val="1558960244"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clockregtest2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/clockregtest2.v"/>
+        <Attr Name="ImportTime" Val="1558960566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clockregtest.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/clockregtest.v"/>
+        <Attr Name="ImportTime" Val="1558960566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/RAM/RAM.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/ip/RAM/RAM.xci"/>
+        <Attr Name="ImportTime" Val="1558960244"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab12/lab12.srcs/sources_1/new/Ifetc32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab12/lab12.srcs/sources_1/new/Ifetc32.v"/>
+        <Attr Name="ImportTime" Val="1557748835"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/control32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab13_2/lab13_2.srcs/sources_1/new/control32.v"/>
+        <Attr Name="ImportTime" Val="1557749240"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/dmemory32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab13_2/lab13_2.srcs/sources_1/new/dmemory32.v"/>
+        <Attr Name="ImportTime" Val="1558252291"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab11/lab11.srcs/sources_1/new/executs32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab11/lab11.srcs/sources_1/new/executs32.v"/>
+        <Attr Name="ImportTime" Val="1556532362"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/ioread.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab13_2/lab13_2.srcs/sources_1/new/ioread.v"/>
+        <Attr Name="ImportTime" Val="1558252222"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/leds.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab13_2/lab13_2.srcs/sources_1/new/leds.v"/>
+        <Attr Name="ImportTime" Val="1558259087"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/memorio.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab13_2/lab13_2.srcs/sources_1/new/memorio.v"/>
+        <Attr Name="ImportTime" Val="1558255729"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab13_2/lab13_2.srcs/sources_1/new/switchs.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab13_2/lab13_2.srcs/sources_1/new/switchs.v"/>
+        <Attr Name="ImportTime" Val="1558259076"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vivado/lab10/lab10.srcs/sources_1/imports/lab10/idecode32-1.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab10/lab10.srcs/sources_1/imports/lab10/idecode32-1.v"/>
+        <Attr Name="ImportTime" Val="1556529603"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpu_d.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/cpu_d.v"/>
+        <Attr Name="ImportTime" Val="1558945894"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clocktest.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/clocktest.v"/>
+        <Attr Name="ImportTime" Val="1558960566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpu.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/cpu.v"/>
+        <Attr Name="ImportTime" Val="1558960433"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lighttest.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/lighttest.v"/>
+        <Attr Name="ImportTime" Val="1558960566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/prgrom/prgmip32.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/ip/prgrom/prgmip32.coe"/>
+        <Attr Name="ImportTime" Val="1558600273"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/RAM/dmem32.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/ip/RAM/dmem32.coe"/>
+        <Attr Name="ImportTime" Val="1558600273"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpu_debug.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/cpu_debug.v"/>
+        <Attr Name="ImportTime" Val="1558960461"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/testcase1/prgmip32.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/testcase1/prgmip32.coe"/>
+        <Attr Name="ImportTime" Val="1528742759"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/testcase1/dmem32.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/testcase1/dmem32.coe"/>
+        <Attr Name="ImportTime" Val="1528742759"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpu_debugd.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/sources_1/new/cpu_debugd.v"/>
+        <Attr Name="ImportTime" Val="1558960476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="clockregtest2"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cpu_minisys.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../final_lab.srcs/constrs_1/new/cpu_minisys.xdc"/>
+        <Attr Name="ImportTime" Val="1558637747"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/cpu_minisys.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="cpuclk"/>
+</GenRun>

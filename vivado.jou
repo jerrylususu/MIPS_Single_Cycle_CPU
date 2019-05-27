@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May 27 20:29:18 2019
+# Process ID: 7300
+# Current directory: C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17840 C:\Users\jerry\OneDrive\ProjectsFolder\cs202\vivado\final sim all pass dup\final_lab.xpr
+# Log file: C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/vivado.log
+# Journal file: C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/clockregtest2.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/clockregtest2.v}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/clockregtest.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/clocktest.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/lighttest.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/clockregtest.v} {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/clocktest.v} {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/new/lighttest.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sim_1/new/clock_sim.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sim_1/new/cpuclocktestsim.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sim_1/new/clock_sim.v} {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sim_1/new/cpuclocktestsim.v}}
+reset_target all [get_files  {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/prgrom/prgrom.xci}}]
+export_ip_user_files -of_objects  [get_files  {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/prgrom/prgrom.xci}}] -sync -no_script -force -quiet
+reset_target all [get_files  {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/RAM/RAM.xci}}]
+export_ip_user_files -of_objects  [get_files  {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/RAM/RAM.xci}}] -sync -no_script -force -quiet
+generate_target all [get_files {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/RAM/RAM.xci}]
+export_ip_user_files -of_objects [get_files {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/RAM/RAM.xci}] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/RAM/RAM.xci}}] -directory {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.ip_user_files} -ipstatic_source_dir {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/modelsim} {questa=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/questa} {riviera=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/riviera} {activehdl=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset RAM
+set_property top RAM [get_fileset RAM]
+move_files -fileset [get_fileset RAM] [get_files -of_objects [get_fileset sources_1] {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/RAM/RAM.xci}}]
+generate_target all [get_files {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/prgrom/prgrom.xci}]
+export_ip_user_files -of_objects [get_files {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/prgrom/prgrom.xci}] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/prgrom/prgrom.xci}}] -directory {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.ip_user_files} -ipstatic_source_dir {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/modelsim} {questa=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/questa} {riviera=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/riviera} {activehdl=C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset prgrom
+set_property top prgrom [get_fileset prgrom]
+move_files -fileset [get_fileset prgrom] [get_files -of_objects [get_fileset sources_1] {{C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.srcs/sources_1/ip/prgrom/prgrom.xci}}]
+launch_run {RAM_synth_1 prgrom_synth_1}
+wait_on_run RAM_synth_1
+
+wait_on_run RAM_synth_1
+wait_on_run prgrom_synth_1
+
+launch_simulation
+source minisys_sim_debug.tcl
+close_sim
+launch_simulation
+source minisys_sim_debug.tcl
+archive_project C:/Users/jerry/Desktop/final_lab_cpu.xpr.zip -temp_dir {C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/.Xil/Vivado-7300-JERRYLU-LAPTOP} -force -include_local_ip_cache

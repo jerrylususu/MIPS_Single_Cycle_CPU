@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May 27 20:30:54 2019
+# Process ID: 19148
+# Current directory: C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.runs/prgrom_synth_1
+# Command line: vivado.exe -log prgrom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source prgrom.tcl
+# Log file: C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.runs/prgrom_synth_1/prgrom.vds
+# Journal file: C:/Users/jerry/OneDrive/ProjectsFolder/cs202/vivado/final sim all pass dup/final_lab.runs/prgrom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source prgrom.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP prgrom, cache-ID = bb2a5e6ffd34ef48.
+INFO: [Common 17-206] Exiting Vivado at Mon May 27 20:30:59 2019...
